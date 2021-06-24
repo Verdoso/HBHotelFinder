@@ -28,7 +28,7 @@
   </properties>
 
   <scm>
-    <developerConnection>scm:git:https://github.com/Verdoso/Airport-Finder</developerConnection>
+    <developerConnection>scm:git:https://github.com/Verdoso/HBHotelFinder</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
