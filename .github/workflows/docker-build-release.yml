@@ -43,8 +43,8 @@ jobs:
         REGISTRY_PASSWORD: ${{ secrets.REGISTRY_PASSWORD }}
         RELEASE_VERSION: $(cat RELEASE_VERSION)
       run: |
-        mvn --batch-mode release:prepare -Dusername=$GITHUB_ACTOR -Dpassword=$GITHUB_TOKEN
-        mvn --batch-mode release:perform 
+        mvn --batch-mode release:prepare -Dusername=$GITHUB_ACTOR -Dpassword=$GITHUB_TOKEN -DignoreSnapshots=true
+        mvn --batch-mode release:perform -DignoreSnapshots=true
       
     - name: Create Release
       id: create_release
