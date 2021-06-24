@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"
->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -11,7 +9,7 @@
   </parent>
   <groupId>org.greeneyed</groupId>
   <artifactId>hb-hotel-finder</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>hb-hotel-finder</name>
   <description>Small service to locate acommodation offerss through the Hotelbeds API</description>
   <properties>
@@ -29,7 +27,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/Verdoso/HBHotelFinder</developerConnection>
-    <tag>HEAD</tag>
+    <tag>v0.0.1</tag>
   </scm>
 
   <dependencies>
