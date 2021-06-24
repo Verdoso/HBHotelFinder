@@ -219,8 +219,7 @@
       <plugin>
         <groupId>pl.project13.maven</groupId>
         <artifactId>git-commit-id-plugin</artifactId>
-        <version>4.0.5</version>
-        $NO-MVN-MAN-VER$
+        <version>4.0.5</version><!--$NO-MVN-MAN-VER$-->
         <executions>
           <execution>
             <id>get-the-git-infos</id>
