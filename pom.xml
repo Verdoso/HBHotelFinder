@@ -216,29 +216,30 @@
           <skip>true</skip>
         </configuration>
       </plugin>
-      <!-- <plugin> -->
-      <!-- <groupId>pl.project13.maven</groupId> -->
-      <!-- <artifactId>git-commit-id-plugin</artifactId> -->
-      <!-- <version>4.0.5</version>$NO-MVN-MAN-VER$ -->
-      <!-- <executions> -->
-      <!-- <execution> -->
-      <!-- <id>get-the-git-infos</id> -->
-      <!-- <goals> -->
-      <!-- <goal>revision</goal> -->
-      <!-- </goals> -->
-      <!-- </execution> -->
-      <!-- <execution> -->
-      <!-- <id>validate-the-git-infos</id> -->
-      <!-- <goals> -->
-      <!-- <goal>validateRevision</goal> -->
-      <!-- </goals> -->
-      <!-- </execution> -->
-      <!-- </executions> -->
-      <!-- <configuration> -->
-      <!-- <excludeProperties>git.build.user.*,git.commit.user.*,git.remote.*,git.closest.*,git.commit.id.describe*</excludeProperties> -->
-      <!-- <generateGitPropertiesFile>true</generateGitPropertiesFile> -->
-      <!-- </configuration> -->
-      <!-- </plugin> -->
+      <plugin>
+        <groupId>pl.project13.maven</groupId>
+        <artifactId>git-commit-id-plugin</artifactId>
+        <version>4.0.5</version>
+        $NO-MVN-MAN-VER$
+        <executions>
+          <execution>
+            <id>get-the-git-infos</id>
+            <goals>
+              <goal>revision</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>validate-the-git-infos</id>
+            <goals>
+              <goal>validateRevision</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <excludeProperties>git.build.user.*,git.commit.user.*,git.remote.*,git.closest.*,git.commit.id.describe*</excludeProperties>
+          <generateGitPropertiesFile>true</generateGitPropertiesFile>
+        </configuration>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-scm-plugin</artifactId>
