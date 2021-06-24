@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  config:
+    use-legacy-processing: true
+management:
+   endpoints:
+      web:
+         base-path: /manage
+         exposure:
+            include: health,info,env,mappings,refresh,loggers,configInspector,configprops,actuators
+logging.config: classpath:log4j2-spring.xml

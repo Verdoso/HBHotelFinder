@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: hb-hotel-finder
+  jmx:
+    default-domain: ${spring.application.name}
